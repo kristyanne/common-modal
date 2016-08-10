@@ -1,5 +1,17 @@
+// .modal {
+//     display: block;
+
+//     &[aria-hidden='true'] {
+//         display: none;
+//     }
+// }
+*:focus {
+    background: pink;
+}
+
 .modal {
     align-items: center;
+    background: transparent;
     background: rgba(0, 0, 0, .8);
     box-sizing: border-box;
     display: flex;
